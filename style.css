@@ -634,6 +634,26 @@ nav {
 .swiper-slide {
     flex: 0 0 auto;
     width: 100%;
+    position: relative;
+}
+
+.client-card {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.client-card img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 50%;
+    top: -25px;
+    transform: translateX(-50%);
+    width: 80px;
 }
 
 /* Footer adjustments for larger screens */
